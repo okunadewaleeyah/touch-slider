@@ -1,0 +1,14 @@
+{
+  "name": "savorliz-s-cafe",
+  "version": "1.0.0",
+  "description": "menu website",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "waliyah",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
