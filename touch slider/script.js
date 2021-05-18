@@ -13,7 +13,7 @@ let isDragging = false, // reps if i have my finger/mouse on the obj in the brow
     currentTranslate = 0, // reps the value i want for transform: translateX(0); in CSS
     prevTranslate = 0,
     animationID = 0, // request animation frame. oh joy! a mthd on wndw obj that
-                    // returns pecific id that can be used to cancel the request frame
+                    // returns specific id that can be used to cancel the request frame
     currentIndex = 0 // reps the current slide
 
 // looping through the slides
@@ -54,7 +54,7 @@ function touchStart(index) { // since touchStart(index) was called earlier,
         // request animation frame tells the browser that we want to perform an
         // animation and request a call to a specific fucntion to update that animation
         // before the nest replay
-        // ****** note to self:- check css-tricks.com/using-requestanimationframe/******** */
+        // ****** note to self:- check css-tricks.com/using-requestanimationframe/*************************************************************/
         animationID = requestAnimationFrame(animation)
         slider.classList.add('grabbing')
     }
